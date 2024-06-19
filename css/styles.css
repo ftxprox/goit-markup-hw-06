@@ -57,7 +57,7 @@ img {
   }
 }
 
-/* ------------HEADER------------ */
+
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -222,7 +222,6 @@ img {
   }
 }
 
-/* ------------MOBILE MENU--------------- */
 
 .backdrop-menu {
   width: 100%;
@@ -232,7 +231,7 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: fixed;
   top: 0;
-  /* тут початок сховати */
+
   opacity: 0;
   pointer-events: none;
 }
@@ -241,7 +240,7 @@ img {
   opacity: 1;
   pointer-events: auto;
 }
-/* тут кінець схованки */
+
 
 .modal-menu {
   position: absolute;
@@ -428,9 +427,6 @@ img {
   }
 }
 
-/* -------------------------------------- */
-
-/* ------------TITLE------------ */
 
 .title {
   background-image: linear-gradient(
@@ -568,9 +564,7 @@ img {
   }
 }
 
-/* ------------------------ */
 
-/* ------------ADVANTAGES------------ */
 
 .advantages {
   /* padding-top: 120px;
@@ -719,9 +713,6 @@ img {
   }
 }
 
-/* ------------------------ */
-
-/* ------------TEAM------------ */
 
 .team {
   background-color: #f4f4fd;
@@ -864,9 +855,6 @@ img {
   }
 }
 
-/* ------------------------ */
-
-/* ------------PORTFOLIO------------ */
 
 .portfolio {
   /* padding-top: 120px;
@@ -1000,10 +988,6 @@ img {
   }
 }
 
-/* ------------------------ */
-
-/* ------------FOOTER------------ */
-
 .footer {
   background-color: #2e2f42;
   /* padding-top: 100px;
@@ -1105,9 +1089,7 @@ img {
   fill: #f4f4fd;
 }
 
-/* ------------------------ */
 
-/* ------------SUBSCRIBE------------ */
 
 .form-subscribe {
   /* width: 453px;
@@ -1310,9 +1292,7 @@ img {
   }
 }
 
-/* ------------------------ */
 
-/* ------------MODEL------------ */
 
 .backdrop {
   width: 100%;
@@ -1322,7 +1302,7 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: fixed;
   top: 0;
-  /* тут початок сховати */
+
   opacity: 0;
   pointer-events: none;
 }
@@ -1331,7 +1311,7 @@ img {
   opacity: 1;
   pointer-events: auto;
 }
-/* тут кінець схованки */
+
 
 .modal {
   position: absolute;
@@ -1513,7 +1493,6 @@ img {
   margin-bottom: 16px;
 }
 
-/* ----------CHEKBOX----------- */
 
 .checkbox-mark {
   display: flex;
@@ -1564,7 +1543,7 @@ img {
   color: #4d5ae5;
 }
 
-/* ---------------------------- */
+
 
 .modal-btn {
   font-family: Roboto, sans-serif;
@@ -1600,5 +1579,3 @@ img {
     padding: 72px 24px 24px 24px;
   }
 }
-
-/* -------------------------------------- */
